@@ -1,0 +1,567 @@
+{
+  "competitors": [
+    {
+      "id": "demo-tradeindia-1767072222196-0",
+      "name": "Golden Co.",
+      "location": "Hyderabad, Telangana",
+      "source": "TradeIndia",
+      "products": [
+        {
+          "name": "Metallic Glitter",
+          "price": 1270,
+          "unit": "kg"
+        },
+        {
+          "name": "Cosmetic Glitter",
+          "price": 708,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 989,
+      "rating": 3.7,
+      "responseTime": "2-4 hours",
+      "marketShare": 21.2,
+      "trend": "stable",
+      "trendValue": -0.5,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 789
+        },
+        {
+          "month": "Sep",
+          "price": 783
+        },
+        {
+          "month": "Oct",
+          "price": 758
+        },
+        {
+          "month": "Nov",
+          "price": 740
+        },
+        {
+          "month": "Dec",
+          "price": 774
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.196Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-indiamart-1767072222197-1",
+      "name": "Perfect International",
+      "location": "Delhi NCR",
+      "source": "IndiaMART",
+      "products": [
+        {
+          "name": "Art & Craft Glitter",
+          "price": 1220,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 1220,
+      "rating": 4.5,
+      "responseTime": "30min-1 hour",
+      "marketShare": 13.1,
+      "trend": "up",
+      "trendValue": -1.2,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 790
+        },
+        {
+          "month": "Sep",
+          "price": 819
+        },
+        {
+          "month": "Oct",
+          "price": 837
+        },
+        {
+          "month": "Nov",
+          "price": 815
+        },
+        {
+          "month": "Dec",
+          "price": 791
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-tradeindia-1767072222197-2",
+      "name": "Shine Co.",
+      "location": "Surat, Gujarat",
+      "source": "TradeIndia",
+      "products": [
+        {
+          "name": "Neon Fluorescent Glitter",
+          "price": 1151,
+          "unit": "kg"
+        },
+        {
+          "name": "Polyester Glitter",
+          "price": 722,
+          "unit": "kg"
+        },
+        {
+          "name": "Cosmetic Glitter",
+          "price": 1204,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 1026,
+      "rating": 4.3,
+      "responseTime": "Within 24 hours",
+      "marketShare": 11.1,
+      "trend": "up",
+      "trendValue": 0.8,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 1202
+        },
+        {
+          "month": "Sep",
+          "price": 1147
+        },
+        {
+          "month": "Oct",
+          "price": 1202
+        },
+        {
+          "month": "Nov",
+          "price": 1253
+        },
+        {
+          "month": "Dec",
+          "price": 1238
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-exportersindia-1767072222197-3",
+      "name": "Royal Manufacturing",
+      "location": "Delhi NCR",
+      "source": "ExportersIndia",
+      "products": [
+        {
+          "name": "Industrial Glitter",
+          "price": 1150,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 1150,
+      "rating": 4.2,
+      "responseTime": "6-8 hours",
+      "marketShare": 14.9,
+      "trend": "stable",
+      "trendValue": 0,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 1175
+        },
+        {
+          "month": "Sep",
+          "price": 1120
+        },
+        {
+          "month": "Oct",
+          "price": 1163
+        },
+        {
+          "month": "Nov",
+          "price": 1142
+        },
+        {
+          "month": "Dec",
+          "price": 1158
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-indiamart-1767072222197-4",
+      "name": "Brilliant International",
+      "location": "Delhi NCR",
+      "source": "IndiaMART",
+      "products": [
+        {
+          "name": "Cosmetic Glitter",
+          "price": 1115,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 1115,
+      "rating": 4.5,
+      "responseTime": "6-8 hours",
+      "marketShare": 24.2,
+      "trend": "up",
+      "trendValue": 2.5,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 1098
+        },
+        {
+          "month": "Sep",
+          "price": 1134
+        },
+        {
+          "month": "Oct",
+          "price": 1138
+        },
+        {
+          "month": "Nov",
+          "price": 1106
+        },
+        {
+          "month": "Dec",
+          "price": 1137
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-tradeindia-1767072222197-5",
+      "name": "Glitter International",
+      "location": "Ahmedabad, Gujarat",
+      "source": "TradeIndia",
+      "products": [
+        {
+          "name": "Industrial Glitter",
+          "price": 758,
+          "unit": "kg"
+        },
+        {
+          "name": "Holographic Films",
+          "price": 951,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 855,
+      "rating": 4.3,
+      "responseTime": "4-6 hours",
+      "marketShare": 8,
+      "trend": "stable",
+      "trendValue": -2.2,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 1061
+        },
+        {
+          "month": "Sep",
+          "price": 1043
+        },
+        {
+          "month": "Oct",
+          "price": 1023
+        },
+        {
+          "month": "Nov",
+          "price": 1008
+        },
+        {
+          "month": "Dec",
+          "price": 1047
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-tradeindia-1767072222197-6",
+      "name": "Supreme Glitters",
+      "location": "Surat, Gujarat",
+      "source": "TradeIndia",
+      "products": [
+        {
+          "name": "Neon Fluorescent Glitter",
+          "price": 1225,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 1225,
+      "rating": 3.9,
+      "responseTime": "4-6 hours",
+      "marketShare": 23,
+      "trend": "up",
+      "trendValue": 2.6,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 854
+        },
+        {
+          "month": "Sep",
+          "price": 825
+        },
+        {
+          "month": "Oct",
+          "price": 822
+        },
+        {
+          "month": "Nov",
+          "price": 843
+        },
+        {
+          "month": "Dec",
+          "price": 883
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-tradeindia-1767072222197-7",
+      "name": "Brilliant Manufacturing",
+      "location": "Pune, Maharashtra",
+      "source": "TradeIndia",
+      "products": [
+        {
+          "name": "Neon Fluorescent Glitter",
+          "price": 1290,
+          "unit": "kg"
+        },
+        {
+          "name": "Holographic Glitter Powder",
+          "price": 712,
+          "unit": "kg"
+        },
+        {
+          "name": "Bio Glitter",
+          "price": 858,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 953,
+      "rating": 4.6,
+      "responseTime": "30min-1 hour",
+      "marketShare": 10.8,
+      "trend": "up",
+      "trendValue": -1.8,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 777
+        },
+        {
+          "month": "Sep",
+          "price": 758
+        },
+        {
+          "month": "Oct",
+          "price": 755
+        },
+        {
+          "month": "Nov",
+          "price": 763
+        },
+        {
+          "month": "Dec",
+          "price": 780
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-indiamart-1767072222197-8",
+      "name": "Golden International",
+      "location": "Surat, Gujarat",
+      "source": "IndiaMART",
+      "products": [
+        {
+          "name": "Polyester Glitter",
+          "price": 1034,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 1034,
+      "rating": 3.8,
+      "responseTime": "2-4 hours",
+      "marketShare": 8.6,
+      "trend": "up",
+      "trendValue": -0.8,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 1259
+        },
+        {
+          "month": "Sep",
+          "price": 1268
+        },
+        {
+          "month": "Oct",
+          "price": 1240
+        },
+        {
+          "month": "Nov",
+          "price": 1233
+        },
+        {
+          "month": "Dec",
+          "price": 1249
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-indiamart-1767072222197-9",
+      "name": "Royal Products",
+      "location": "Chennai, Tamil Nadu",
+      "source": "IndiaMART",
+      "products": [
+        {
+          "name": "Holographic Glitter Powder",
+          "price": 1222,
+          "unit": "kg"
+        },
+        {
+          "name": "Cosmetic Glitter",
+          "price": 1275,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 1249,
+      "rating": 4.8,
+      "responseTime": "4-6 hours",
+      "marketShare": 16.2,
+      "trend": "up",
+      "trendValue": 1.6,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 783
+        },
+        {
+          "month": "Sep",
+          "price": 800
+        },
+        {
+          "month": "Oct",
+          "price": 801
+        },
+        {
+          "month": "Nov",
+          "price": 838
+        },
+        {
+          "month": "Dec",
+          "price": 877
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-tradeindia-1767072222197-10",
+      "name": "Shine Corporation",
+      "location": "Chennai, Tamil Nadu",
+      "source": "TradeIndia",
+      "products": [
+        {
+          "name": "Industrial Glitter",
+          "price": 1245,
+          "unit": "kg"
+        },
+        {
+          "name": "Holographic Glitter Powder",
+          "price": 1063,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 1154,
+      "rating": 4.5,
+      "responseTime": "2-4 hours",
+      "marketShare": 17.7,
+      "trend": "up",
+      "trendValue": -1.1,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 1061
+        },
+        {
+          "month": "Sep",
+          "price": 1044
+        },
+        {
+          "month": "Oct",
+          "price": 1074
+        },
+        {
+          "month": "Nov",
+          "price": 1071
+        },
+        {
+          "month": "Dec",
+          "price": 1075
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    },
+    {
+      "id": "demo-exportersindia-1767072222197-11",
+      "name": "Supreme International",
+      "location": "Valsad, Gujarat",
+      "source": "ExportersIndia",
+      "products": [
+        {
+          "name": "Iridescent Glitter",
+          "price": 992,
+          "unit": "kg"
+        },
+        {
+          "name": "Industrial Glitter",
+          "price": 1178,
+          "unit": "kg"
+        }
+      ],
+      "avgPrice": 1085,
+      "rating": 4.7,
+      "responseTime": "6-8 hours",
+      "marketShare": 10.3,
+      "trend": "down",
+      "trendValue": 0.1,
+      "priceHistory": [
+        {
+          "month": "Aug",
+          "price": 906
+        },
+        {
+          "month": "Sep",
+          "price": 902
+        },
+        {
+          "month": "Oct",
+          "price": 907
+        },
+        {
+          "month": "Nov",
+          "price": 944
+        },
+        {
+          "month": "Dec",
+          "price": 939
+        }
+      ],
+      "lastScraped": "2025-12-30T05:23:42.197Z",
+      "_isDemoData": true
+    }
+  ],
+  "lastScraped": "2025-12-30T05:23:42.197Z",
+  "cachedAt": "2025-12-30T05:23:42.198Z"
+}

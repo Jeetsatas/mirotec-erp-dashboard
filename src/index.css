@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light Mode - Premium Neutral Palette */
+    --background: 220 20% 97%;
+    --foreground: 220 25% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+
+    --primary: 230 75% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 15% 94%;
+    --secondary-foreground: 220 25% 20%;
+
+    --muted: 220 15% 92%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 165 70% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 230 75% 55%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar - Light Mode */
+    --sidebar-background: 225 25% 12%;
+    --sidebar-foreground: 220 15% 92%;
+    --sidebar-primary: 230 75% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 225 20% 18%;
+    --sidebar-accent-foreground: 220 15% 95%;
+    --sidebar-border: 225 20% 20%;
+    --sidebar-ring: 230 75% 60%;
+
+    /* Chart Colors */
+    --chart-1: 230 75% 55%;
+    --chart-2: 165 70% 42%;
+    --chart-3: 35 92% 55%;
+    --chart-4: 280 65% 55%;
+    --chart-5: 0 72% 55%;
+
+    /* Status Colors */
+    --success: 165 70% 42%;
+    --success-foreground: 0 0% 100%;
+    --warning: 35 92% 55%;
+    --warning-foreground: 0 0% 100%;
+    --info: 200 85% 50%;
+    --info-foreground: 0 0% 100%;
+
+    /* Glass Effects - Light */
+    --glass-background: 0 0% 100% / 0.7;
+    --glass-border: 0 0% 100% / 0.3;
+    --glass-shadow: 220 25% 10% / 0.05;
+  }
+
+  .dark {
+    /* Dark Mode - Premium Dark Palette */
+    --background: 225 25% 8%;
+    --foreground: 220 15% 95%;
+
+    --card: 225 20% 12%;
+    --card-foreground: 220 15% 95%;
+
+    --popover: 225 20% 12%;
+    --popover-foreground: 220 15% 95%;
+
+    --primary: 230 75% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 225 15% 18%;
+    --secondary-foreground: 220 15% 90%;
+
+    --muted: 225 15% 16%;
+    --muted-foreground: 220 10% 55%;
+
+    --accent: 165 70% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 225 15% 18%;
+    --input: 225 15% 18%;
+    --ring: 230 75% 60%;
+
+    /* Sidebar - Dark Mode */
+    --sidebar-background: 225 30% 6%;
+    --sidebar-foreground: 220 15% 90%;
+    --sidebar-primary: 230 75% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 225 25% 12%;
+    --sidebar-accent-foreground: 220 15% 95%;
+    --sidebar-border: 225 20% 12%;
+    --sidebar-ring: 230 75% 60%;
+
+    /* Chart Colors - Dark */
+    --chart-1: 230 75% 60%;
+    --chart-2: 165 70% 50%;
+    --chart-3: 35 92% 60%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 0 72% 60%;
+
+    /* Status Colors - Dark */
+    --success: 165 70% 45%;
+    --success-foreground: 0 0% 100%;
+    --warning: 35 92% 60%;
+    --warning-foreground: 225 25% 10%;
+    --info: 200 85% 55%;
+    --info-foreground: 0 0% 100%;
+
+    /* Glass Effects - Dark */
+    --glass-background: 225 20% 15% / 0.6;
+    --glass-border: 220 15% 95% / 0.1;
+    --glass-shadow: 0 0% 0% / 0.3;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+@layer components {
+  /* Glass Effect Components */
+  .glass {
+    @apply bg-[hsl(var(--glass-background))] backdrop-blur-xl border border-[hsl(var(--glass-border))];
+    box-shadow: 0 4px 30px hsl(var(--glass-shadow));
+  }
+
+  .glass-card {
+    @apply bg-[hsl(var(--glass-background))] backdrop-blur-xl rounded-xl border border-[hsl(var(--glass-border))];
+    box-shadow: 
+      0 4px 30px hsl(var(--glass-shadow)),
+      inset 0 1px 0 hsl(0 0% 100% / 0.1);
+  }
+
+  .glass-subtle {
+    @apply bg-card/80 backdrop-blur-md border border-border/50;
+  }
+
+  /* Premium Card Hover */
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .card-hover:hover {
+    @apply -translate-y-1;
+    box-shadow: 
+      0 20px 40px hsl(var(--glass-shadow)),
+      0 0 0 1px hsl(var(--border));
+  }
+
+  /* Status Pills */
+  .status-pill {
+    @apply px-3 py-1 rounded-full text-xs font-medium inline-flex items-center gap-1.5;
+  }
+
+  .status-success {
+    @apply bg-[hsl(var(--success))]/15 text-[hsl(var(--success))] border border-[hsl(var(--success))]/20;
+  }
+
+  .status-warning {
+    @apply bg-[hsl(var(--warning))]/15 text-[hsl(var(--warning))] border border-[hsl(var(--warning))]/20;
+  }
+
+  .status-error {
+    @apply bg-destructive/15 text-destructive border border-destructive/20;
+  }
+
+  .status-info {
+    @apply bg-[hsl(var(--info))]/15 text-[hsl(var(--info))] border border-[hsl(var(--info))]/20;
+  }
+
+  .status-neutral {
+    @apply bg-muted text-muted-foreground border border-border;
+  }
+
+  /* Premium Table Styles */
+  .premium-table {
+    @apply w-full;
+  }
+
+  .premium-table thead {
+    @apply bg-muted/50;
+  }
+
+  .premium-table th {
+    @apply px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-muted-foreground;
+  }
+
+  .premium-table td {
+    @apply px-4 py-4 text-sm;
+  }
+
+  .premium-table tbody tr {
+    @apply border-b border-border/50 transition-colors hover:bg-muted/30;
+  }
+
+  /* Smooth Transitions */
+  .transition-smooth {
+    @apply transition-all duration-200 ease-out;
+  }
+
+  /* Focus Ring */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 focus:ring-offset-background;
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-[hsl(var(--accent))] bg-clip-text text-transparent;
+  }
+
+  /* Icon Container */
+  .icon-container {
+    @apply flex items-center justify-center rounded-xl transition-smooth;
+  }
+
+  /* Scrollbar Styling */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/30;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.2s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from { 
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to { 
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from { 
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to { 
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
